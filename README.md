@@ -1,4 +1,4 @@
-## Obi Uchenna David - Geek & Full - Stack Developer @ [Indix](https://indix.com)
+## Obi Uchenna David - Geek & Full - Stack Developer 
 
 ### License
 Copyright 2017 Pranesh Ravi
