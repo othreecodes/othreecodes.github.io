@@ -1,4 +1,4 @@
-## Pranesh Ravi - UI Designer & Full - Stack Developer @ [Indix](https://indix.com)
+## Obi Uchenna David - Geek & Full - Stack Developer @ [Indix](https://indix.com)
 
 ### License
 Copyright 2017 Pranesh Ravi
