@@ -49,8 +49,8 @@ $(window).on('load', function () {
   $('.percentage-container').addClass('no-width')
   setTimeout(function () {
     window.clearInterval(id)
-    $('.peru').text('Pranesh Ravi')
-    $('.seira-vela').text('UI designer & Full-Stack developer')
+    $('.peru').text('Obi Uchenna David')
+    $('.seira-vela').text('Geek & Full-Stack developer')
     $('body').css('overflow', 'auto')
     $('.rendu').css('display', 'block')
     $('.down').css('opacity', 1)
