@@ -1,458 +1,527 @@
-<!--
-Copyright 2017 Pranesh Ravi
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
--->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Obi Uchenna David">
-    <meta name="description" content="Obi Uchenna David's personal website | Geek & Full-Stack Developer">
-    <meta name="Keywords" content="Developers in Nigeria, Developers in Lagos, Top Developers in Lagos, Mobile Developers in Lagos , Java developers, Python, Kotlin, Android developers in Nigeria, Lagos developers, Software developers, build software">
-    <meta name="twitter:card" value="summary_large_image">
-    <meta name="twitter:site" value="@othreecodes">
-    <meta name="twitter:creator" value="@othreecodes">
-    <meta name="twitter:title" content="Obi Uchenna David">
-    <meta name="twitter:description" content="Obi Uchenna David's personal website | Geek & Full-Stack Developer">
-    <meta name="twitter:image" content="https://avatars3.githubusercontent.com/u/18391371?v=3&s=460">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obi Uchenna David — AVP Engineering at Cowrywise | Software Engineer, Lagos Nigeria</title>
+<meta name="description" content="Obi Uchenna David is the Associate Vice President of Engineering at Cowrywise, building Nigeria's financial infrastructure. A decade of shipping fintech, open-source tools, and teaching code to kids.">
+<meta name="author" content="Obi Uchenna David">
+<meta name="keywords" content="Obi Uchenna David, othreecodes, Cowrywise, AVP Engineering, software engineer Nigeria, fintech Lagos, Android developer, Python developer, Kotlin, infrastructure engineering, Cowrywise Roundup, knowIT NGO, NatGrid Monitor">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://davidmadethis.com">
 
-    <meta content="Obi Uchenna David" property="og:site_name">
-    <meta content="Obi Uchenna David" property="og:title">
-    <meta content="Obi Uchenna David's personal website | Geek & Full-Stack Developer" property="og:description">
-    <meta content="website" property="og:type">
-    <meta content="http://davidmadethis.com" property="og:url">
-    <meta content="https://avatars3.githubusercontent.com/u/18391371?v=3&s=460" property="og:image" />
+<!-- Open Graph -->
+<meta property="og:title" content="Obi Uchenna David — Engineering Leader">
+<meta property="og:description" content="AVP Engineering at Cowrywise. A decade of building fintech, open-source tools, and teaching kids to code in Lagos.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://davidmadethis.com">
+<meta property="og:image" content="https://davidmadethis.com/og-image.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:alt" content="Obi Uchenna David — AVP Engineering at Cowrywise">
+<meta property="og:locale" content="en_NG">
+<meta property="og:site_name" content="Obi Uchenna David">
 
-    <meta name="theme-color" content="#6356E5">
-    <meta name="msapplication-navbutton-color" content="#6356E5">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#6356E5">
-    <title>Obi Uchenna David</title>
-    <link rel="shortcut icon" type="image/png" href="/img/unbothered.png"/>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	     <script src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js"></script>
- 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-	  
-	  <!-- Start of Async Drift Code -->
-<script>
-!function() {
-  var t;
-  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-  t.factory = function(e) {
-    return function() {
-      var n;
-      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-    };
-  }, t.methods.forEach(function(e) {
-    t[e] = t.factory(e);
-  }), t.load = function(t) {
-    var e, n, o, i;
-    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-  });
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('u3pmfd43eed6');
-</script>
-<!-- End of Async Drift Code -->
-  </head>
-  <body>
-    <div class="vetti-scene">
-      <div class="cssaw">
-      </div>
-      <div class="peru">
-      </div>
-      <div class="seira-vela"></div>
-      <a href="#about" data-scroll>
-        <div class="down">
-          <img src="img/down.svg" alt="">
-        </div>
-      </a>
-    </div>
-    <div class="rendu">
-      <header class="hidden-xs hidden-sm hidden-md">
-        <img src="/img/unbothered.png" alt="">
-      </header>
-      <div class="hidden-xs hidden-sm hidden-md my-nav">
-        <a data-scroll href="#about" class="fancy">About Me</a>
-        <a data-scroll href="#skills" class="fancy">Skills</a>
-        <a data-scroll href="#projects" class="fancy">Projects</a>
-      </div>
-      <div class="container" id="about">
-        <h2>About Me</h2>
-        <div class="enna-pathi">
-          <p>
-            I’m a full-stack developer based in Lagos, Nigeria. I’ve nearly 8 years of experience in backend, infrasctructure and mobile development, which includes 6+ years of professional experience
-            working with <a class="fancy" href="http://www.iita.org/"> IITA</a> ,  <a class="fancy" href="https://www.cellcore.com.ng/"> Cellcore Nigeria</a> , <a class="fancy" href="http://www.vasiti.com/"> Vasitidotcom</a>, <a class="fancy" href="https://tuteria.com/">Tuteria</a> and <a class="fancy" href="https://murcul.com/">Murcul</a>. 
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Obi Uchenna David — Engineering Leader">
+<meta name="twitter:description" content="AVP Engineering at Cowrywise. Building Nigeria's financial infrastructure.">
+<meta name="twitter:image" content="https://davidmadethis.com/og-image.png">
+<meta name="twitter:image:alt" content="Obi Uchenna David — AVP Engineering at Cowrywise">
 
-            I currently work as a Senior Software Engineer at <a class="fancy" href="http://www.cowrywise.com/"> Cowrywise</a>, championing infrastructure scaling efforts. 
-          </p>
-          <div class="inayam">
-            Read more about my professional experience on 
-            <a target="_blank"  href="https://www.linkedin.com/in/obiuchennadavid/" class="fancy">LinkedIn</a>
-          </div>
-
-          <p id="second">
-            In my spare time, I’ll either be writing poetry (check them out <a href="http://www.theboynamedme.com" class="fancy">Theboynamedme.com</a>) or making new friends on <a class="fancy" href="http://twitter.com/obiuchennadavid">Twitter</a>. 
-          	You got an Interesting project you'd like to talk about? email me at <a class="fancy" href="mailto:contact@davidmadethis.com">contact@davidmadethis.com</a>	  
-          
-          </p>
-
-         
-
-
-        </div>
-
-        <div class="en-moonji">
-          <div class="mangala-theriyum">
-            <img src=" " id="blur" alt="">
-            <img src=" " alt="" id="pro-pic">
-          </div>
-          <a href="http://about.me/obiuchennadavid" target="_blank">Obi Uchenna David</a>
-        </div>
-
-        <div class="enaku-therunjathu" id="skills">
-          <h2>Skills</h2>
-          <div class="enaku-therunjathu-list">
-	<div class="enaku-therunjathu-block">
-              <h4>Python/ Django / Flask</h4>
-              <div class="percentage-container">
-                <div class="percentage" id="html"></div>
-              </div>
-            </div>
-	     <div class="enaku-therunjathu-block">
-              <h4>JavaScript / Node Js / Nestjs</h4>
-              <div class="percentage-container">
-                <div class="percentage" id="js"></div>
-              </div>
-            </div>
-            <div class="enaku-therunjathu-block">
-              <h4>Android Development/ Windows UWP</h4>
-              <div class="percentage-container">
-                <div class="percentage" id="react"></div>
-              </div>
-            </div>
-            <div class="enaku-therunjathu-block">
-              <h4>Angular 2/4/5 / Vue</h4>
-              <div class="percentage-container">
-                <div class="percentage" id="ui"></div>
-              </div>
-            </div>
-            
-            <div class="enaku-therunjathu-block">
-              <h4>JavaEE / Spring / Structs 2</h4>
-              <div class="percentage-container">
-                <div class="percentage" id="ui"></div>
-              </div>
-            </div>
-            <div class="enaku-therunjathu-block">
-              <h4>Swift/IOS</h4>
-              <div class="percentage-container">
-                <div class="percentage" id="js"></div>
-              </div>
-            </div>
-            <div class="enna-pathi">
-              <p>In addition, I have vast knowledge on version control systems such as Github, Gitlab, and CI systems such as Travis CI, Github Actions and Gitlab-CI. Also, I have a very experienced  AWS, Digital Ocean, GCP, Heroku and Docker. I'm comfortable working with teams and working solo</p>
-            </div>
-          </div>
-        </div>
-        <div class="na-senjathu" id="projects">
-          <h2>Projects</h2>
-
-          <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                APX
-              </div>
-              <div class="matravai">
-                <span><a href="http://davidmadethis.com/APX/" class="fancy">View Project</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-            A Javafx Library for building MVC Applications.
-		    <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/othreecodes/APX" data-icon="octicon-star" data-show-count="true" aria-label="Star othreecodes/APX on GitHub">Star</a>
-            </div>
-          </div>
-
-	
-         <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                Eyemark
-              </div>
-              <div class="matravai">
-                <span><a href="http://eyemark.ng" class="fancy">Use App</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-		    An application regulated by the Federal Ministry of Finance, Budget & National Planning for citizens to monitor and evaluate Federal Government Infrastructure projects in Nigeria.
-            </div>
-          </div>
-		
-	<div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                Tuteria Tutor Application (Quiz Microservice)
-              </div>
-              <div class="matravai">
-                <span><a href="https://tutors.tuteria.com/" class="fancy">Use App</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-		    With Tuteria, you can teach students online or around your area, and fit lessons into your schedule. Simply take up jobs, deliver great lessons and get paid. It's that easy.
-            </div>
-          </div>
-		
-	
-	<div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                QuizMaster
-              </div>
-              <div class="matravai">
-                <span><a href="https://github.com/othreecodes?utf8=%E2%9C%93&tab=repositories&q=quizmas&type=&language=" class="fancy">View Project</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-            QuizMaster helps you create and present multiple choice quizzes. Its available for android phones and Windows Desktop.
-            </div>
-          </div>
-		
-          <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                pymvrd
-              </div>
-              <div class="matravai">
-                <span><a href="https://github.com/othreecodes/pymvrd" class="fancy">View Project</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-            Motor Vehicle Registration Information Search Portal Library for python
-		    <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/othreecodes/pymvrd" data-icon="octicon-star" data-show-count="true" aria-label="Star othreecodes/pymvrd on GitHub">Star</a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                MyRide
-              </div>
-              <div class="matravai">
-                <span><a href="http://riding.herokuapp.com/" class="fancy">View Site</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-              A Carpool Social network that helps users get around easily and also make friends while doing it
-            </div>
-          </div>
-		
-	     <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                QuickSend
-              </div>
-              <div class="matravai">
-                <span><a href="https://play.google.com/store/apps/details?id=com.davidmadethis.quicksend" class="fancy">Use App</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-             Send Quick Templated emails (with CV) to different companies
-		    <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/othreecodes/Quicksend" data-icon="octicon-star" data-show-count="true" aria-label="Star othreecodes/Quicksend on GitHub">Star</a>
-            </div>
-          </div>	
-
-          <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                Curricula
-              </div>
-              <div class="matravai">
-                <span><a href="http://davidmadethis.com/CURRICULA" class="fancy">View Project</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-            Curricula is a user-based monitoring app used to track the course outline and improve class interaction by updating an after-class feedback on each course that was treated..
-         <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/othreecodes/curricula" data-icon="octicon-star" data-show-count="true" aria-label="Star othreecodes/curricula on GitHub">Star</a>
-		  </div>
-          </div>
-
-          <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                Wajeun
-              </div>
-              <div class="matravai">
-                <span><a href="https://github.com/othreecodes/WaJeun" class="fancy">View Project</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-            An Android Social Network For Hungry-Broke People. A work in progress
-		    <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/othreecodes/WaJeun" data-icon="octicon-star" data-show-count="true" aria-label="Star othreecodes/WaJeun on GitHub">Star</a>
-            </div>
-		</div>
-		
-		  <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                OVIWCE Website
-              </div>
-              <div class="matravai">
-                <span><a href="http://oviwce.org/" class="fancy">View Site</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-          OVIWCE is a non-governmental organization caring for Orphans, Widows, Women and Children, and the less privileged on a global scale.
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                Cowrywise Android app
-              </div>
-              <div class="matravai">
-                <span><a href="http://cwry.se/app" class="fancy">Use App</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-              Cowrywise helps Nigerians save and invest money online. We are a secure savings and investment platform to grow your wealth.            </div>
-          </div>
-    
-          <div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                Cowrywise Round up
-              </div>
-              <div class="matravai">
-                <span><a href="http://2021.cowrywise.com" class="fancy">View Site</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-              The 2021 roundup of user's money moves
-              </div>
-          </div>
-		
-	<div class="row">
-            <div class="thalaipu-matrum-matravai">
-              <div class="thalaipu">
-                Portfolio
-              </div>
-              <div class="matravai">
-                <span><a href="/portfolio/" class="fancy">View</a></span>
-              </div>
-            </div>
-            <div class="ithu-enna-seiyum">
-              Fancy Portfolio
-        	</div>
-	</div>	
-
-          <div class="button-iruku-inga">
-            <a href="//github.com/othreecodes?utf8=%E2%9C%93&tab=repositories&q=&type=public&language=">
-            <button>Find more projects on Github</button>
-            </a>
-          </div>
-        </div>
-      </div>
-	 
-	    <footer>
-        <div class="love">
-          <img src="/img/heart.svg" alt="">
-        </div>
-        <div class="hosted">
-          This webpage is hosted in Github Pages and the code is available on <a href="https://github.com/othreecodes/othreecodes.github.io/" class="fancy">Github</a>
-        </div>
-         <div class="bottom-links inayam">
-            <a target="_top" href="mailto:contact@davidmadethis.com" class="fancy">Email</a><a target="_blank" id="git" href="//github.com/othreecodes" class="fancy">Github</a><a target="_blank" id="so" href="//twitter.com/othreecodes" class="fancy">Twitter</a>
-            <a target="_blank" id="hn" href="https://www.linkedin.com/in/obiuchennadavid/" class="fancy">LinkedIn</a>  
-        </div>
-	      
-	      
-      </footer>
-    </div>
-    <script>
-      function setBannerViewPort() {
-        document.querySelector('.vetti-scene').style.height = window.innerHeight + 'px'
-      }
-      function randomString(len, charSet) {
-          charSet = charSet || 'abcdefghijklmnopqrstuiwxyz&';
-          var randomString = '';
-          for (var i = 0; i < len; i++) {
-              var randomPoz = Math.floor(Math.random() * charSet.length);
-              randomString += charSet.substring(randomPoz,randomPoz+1);
-          }
-          return randomString;
-      }
-
-      function loading() {
-        var randomStr = randomString(7)
-        var randomStr1 = randomString(4)
-        var randomStr2 = randomString(34)
-        document.querySelector('.peru').innerText = randomStr + ' ' + randomStr1
-        document.querySelector('.seira-vela').innerText = randomStr2
-      }
-      setBannerViewPort()
-      var id = window.setInterval(loading, 200)
-    </script>
-   
-    <script>
-       smoothScroll.init({
-         offset: 150,
-       });
-    </script>
-<!--   <script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiI0QTkwRTIiLCJjdXN0b21Db2xvciI6ZmFsc2UsImljb24iOiJidWJibGUiLCJwcm9ub3VuIjoibWUiLCJsYW5ndWFnZSI6ImVuIiwiYnJhbmRlZCI6ZmFsc2UsImludHJvVGV4dCI6IkhleSBXYW5uYSBUYWxrLCBJJ20gYXZhaWxhYmxlIGhlcmUiLCJjaGFubmVscyI6W1sidHdpdHRlciIsIm90aHJlZWNvZGVzIiwic29jaWFsIl0sWyJtZXNzZW5nZXIiLCJvYml1Y2hlbm5hZGF2aWQiLCJzb2NpYWwiXSxbIndoYXRzYXBwIiwiKzIzNDkwMjAyNzc3OTciLCJzb2NpYWwiXSxbImxpbmtlZGluIiwiaHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL29iaXVjaGVubmFkYXZpZC8iLCJzb2NpYWwiXSxbInBob25lIiwiKzIzNDkwMjAyNzc3OTciLCJjbGFzc2ljIl0sWyJlbWFpbCIsImNvbnRhY3RAZGF2aWRtYWRldGhpcy5jb20iLCJjbGFzc2ljIl1dfQ=='></script> -->  
- 
-<!-- JSON-LD markup generated by Google Structured Data Markup Helper. -->
-	  <!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Structured Data (JSON-LD) -->
 <script type="application/ld+json">
 {
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Obi Uchenna David",
-  "image" : "http://davidmadethis.com/img/david.jpg",
-  "email" : "contact@davidmadethis.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "addressRegion" : "Lagos",
-    "addressCountry" : "Nigeria"
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Obi Uchenna David",
+  "alternateName": "othreecodes",
+  "url": "https://davidmadethis.com",
+  "image": "https://davidmadethis.com/og-image.png",
+  "jobTitle": "Associate Vice President of Engineering",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Cowrywise",
+    "url": "https://cowrywise.com"
   },
-  "url" : "http://davidmadethis.com/"
+  "sameAs": [
+    "https://github.com/othreecodes",
+    "https://linkedin.com/in/obiuchennadavid",
+    "https://twitter.com/othabordeaux",
+    "https://theboynamedme.com"
+  ],
+  "knowsAbout": ["Software Engineering", "Fintech", "Android Development", "Python", "Kotlin", "AWS", "Infrastructure", "Security"],
+  "alumniOf": {
+    "@type": "Organization",
+    "name": "Cowrywise"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lagos",
+    "addressCountry": "NG"
+  }
 }
 </script>
-	 <!-- Hotjar Tracking Code for http://davidmadethis.com -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0f0f0f;
+  --bg-elevated:#161616;
+  --bg-card:#1a1a1a;
+  --amber:#c8923c;
+  --amber-light:#e0a94f;
+  --amber-dim:rgba(200,146,60,.12);
+  --text:#e8e4de;
+  --text-muted:#8a857d;
+  --text-dim:#5a5650;
+  --serif:'Playfair Display',Georgia,serif;
+  --body:'Source Serif 4',Georgia,serif;
+  --mono:'JetBrains Mono',monospace;
+}
+html{scroll-behavior:smooth;font-size:16px;background:var(--bg);color:var(--text)}
+body{font-family:var(--body);line-height:1.7;overflow-x:hidden;position:relative}
+
+/* Grain overlay */
+body::before{
+  content:'';position:fixed;inset:0;z-index:9999;pointer-events:none;
+  opacity:.035;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:128px 128px;
+}
+
+::selection{background:var(--amber);color:var(--bg)}
+
+a{color:var(--amber);text-decoration:none;transition:color .2s}
+a:hover{color:var(--amber-light)}
+
+/* ─── NAV ─── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:1.5rem 3rem;
+  display:flex;justify-content:space-between;align-items:center;
+  background:rgba(15,15,15,.85);backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(200,146,60,.08);
+  transition:transform .3s;
+}
+nav.hide{transform:translateY(-100%)}
+.nav-logo{font-family:var(--mono);font-size:.85rem;letter-spacing:.15em;color:var(--text-muted);text-transform:uppercase}
+.nav-logo span{color:var(--amber)}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);position:relative}
+.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--amber);transition:width .3s}
+.nav-links a:hover{color:var(--text)}.nav-links a:hover::after{width:100%}
+
+.mobile-toggle{display:none;background:none;border:none;color:var(--text);font-size:1.5rem;cursor:pointer}
+
+/* ─── HERO ─── */
+.hero{
+  min-height:100vh;display:flex;flex-direction:column;justify-content:center;
+  padding:8rem 3rem 4rem;
+  position:relative;
+}
+.hero-eyebrow{
+  font-family:var(--mono);font-size:.75rem;letter-spacing:.25em;text-transform:uppercase;
+  color:var(--amber);margin-bottom:2rem;
+  opacity:0;animation:fadeUp .8s .3s forwards;
+}
+.hero h1{
+  font-family:var(--serif);font-weight:900;
+  font-size:clamp(3rem,8vw,7rem);line-height:1;
+  margin-bottom:1.5rem;
+  opacity:0;animation:fadeUp .8s .5s forwards;
+}
+.hero h1 em{font-style:italic;color:var(--amber);font-weight:700}
+.hero-sub{
+  font-size:clamp(1.1rem,2vw,1.35rem);color:var(--text-muted);
+  max-width:38ch;line-height:1.6;
+  opacity:0;animation:fadeUp .8s .7s forwards;
+}
+.hero-line{
+  position:absolute;left:3rem;bottom:4rem;
+  width:1px;height:80px;background:linear-gradient(to bottom,var(--amber),transparent);
+  opacity:0;animation:fadeIn 1s 1.2s forwards;
+}
+.hero-scroll{
+  position:absolute;left:2.2rem;bottom:2rem;
+  font-family:var(--mono);font-size:.65rem;letter-spacing:.15em;
+  color:var(--text-dim);writing-mode:vertical-rl;
+  opacity:0;animation:fadeIn 1s 1.4s forwards;
+}
+
+/* ─── SECTIONS ─── */
+section{padding:7rem 3rem}
+.section-label{
+  font-family:var(--mono);font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--amber);margin-bottom:3rem;display:flex;align-items:center;gap:1.5rem;
+}
+.section-label::after{content:'';flex:1;height:1px;background:var(--amber-dim);max-width:200px}
+.section-title{
+  font-family:var(--serif);font-size:clamp(2rem,4vw,3.2rem);font-weight:700;
+  margin-bottom:1.5rem;line-height:1.15;
+}
+
+/* ─── ABOUT ─── */
+.about{max-width:900px}
+.about p{color:var(--text-muted);font-size:1.1rem;margin-bottom:1.5rem;max-width:60ch}
+.about p strong{color:var(--text);font-weight:600}
+.about-highlight{
+  margin-top:3rem;padding:2rem 2.5rem;
+  border-left:2px solid var(--amber);
+  background:var(--amber-dim);
+  font-family:var(--serif);font-style:italic;font-size:1.15rem;
+  color:var(--text);line-height:1.7;max-width:55ch;
+}
+
+/* ─── EXPERIENCE ─── */
+.timeline{max-width:800px;position:relative;padding-left:3rem}
+.timeline::before{
+  content:'';position:absolute;left:0;top:0;bottom:0;width:1px;
+  background:linear-gradient(to bottom,var(--amber),var(--text-dim),transparent);
+}
+.timeline-item{
+  position:relative;margin-bottom:3.5rem;
+  opacity:0;transform:translateY(20px);transition:all .6s cubic-bezier(.22,1,.36,1);
+}
+.timeline-item.visible{opacity:1;transform:none}
+.timeline-item::before{
+  content:'';position:absolute;left:-3rem;top:.6rem;
+  width:9px;height:9px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--amber);
+  transition:background .3s;
+}
+.timeline-item:first-child::before{background:var(--amber);box-shadow:0 0 12px rgba(200,146,60,.4)}
+.timeline-role{font-family:var(--serif);font-size:1.4rem;font-weight:700;margin-bottom:.3rem}
+.timeline-company{color:var(--amber);font-family:var(--mono);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase}
+.timeline-desc{color:var(--text-muted);margin-top:.6rem;font-size:.95rem;max-width:50ch}
+.timeline-current{
+  display:inline-block;font-family:var(--mono);font-size:.65rem;
+  padding:.25rem .7rem;background:var(--amber-dim);color:var(--amber);
+  border-radius:2px;margin-left:.8rem;letter-spacing:.05em;vertical-align:middle;
+}
+
+/* ─── EXPERTISE ─── */
+.expertise-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;
+  max-width:1100px;
+}
+.expertise-card{
+  padding:2rem;background:var(--bg-card);border:1px solid rgba(255,255,255,.04);
+  position:relative;overflow:hidden;
+  transition:border-color .3s,transform .3s;
+}
+.expertise-card:hover{border-color:rgba(200,146,60,.2);transform:translateY(-2px)}
+.expertise-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--amber),transparent);
+  transform:scaleX(0);transform-origin:left;transition:transform .4s;
+}
+.expertise-card:hover::before{transform:scaleX(1)}
+.expertise-card h3{
+  font-family:var(--serif);font-size:1.15rem;margin-bottom:1rem;color:var(--text);
+}
+.expertise-tags{display:flex;flex-wrap:wrap;gap:.5rem}
+.expertise-tags span{
+  font-family:var(--mono);font-size:.72rem;
+  padding:.3rem .7rem;background:rgba(255,255,255,.04);color:var(--text-muted);
+  border-radius:2px;letter-spacing:.02em;
+}
+
+/* ─── PROJECTS ─── */
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:2rem;max-width:1100px}
+.project-card{
+  padding:2.5rem;background:var(--bg-card);border:1px solid rgba(255,255,255,.04);
+  position:relative;overflow:hidden;
+  transition:border-color .4s;
+}
+.project-card:hover{border-color:rgba(200,146,60,.15)}
+.project-num{
+  font-family:var(--mono);font-size:.7rem;color:var(--text-dim);
+  margin-bottom:1rem;letter-spacing:.1em;
+}
+.project-card h3{font-family:var(--serif);font-size:1.3rem;margin-bottom:.8rem}
+.project-card p{color:var(--text-muted);font-size:.92rem;line-height:1.7}
+.project-link{
+  display:inline-block;margin-top:1.2rem;font-family:var(--mono);font-size:.75rem;
+  letter-spacing:.08em;color:var(--amber);
+  position:relative;padding-bottom:2px;
+}
+.project-link::after{
+  content:'';position:absolute;bottom:0;left:0;width:100%;height:1px;
+  background:var(--amber);transform:scaleX(0);transform-origin:right;transition:transform .3s;
+}
+.project-link:hover::after{transform:scaleX(1);transform-origin:left}
+
+/* ─── CONTACT ─── */
+.contact{text-align:center;padding:8rem 3rem}
+.contact .section-label{justify-content:center}
+.contact .section-label::after{display:none}
+.contact .section-title{max-width:14ch;margin:0 auto 1.5rem}
+.contact p{color:var(--text-muted);font-size:1.05rem;margin-bottom:3rem;max-width:40ch;margin-left:auto;margin-right:auto}
+.contact-email{
+  font-family:var(--serif);font-size:clamp(1.2rem,3vw,1.8rem);
+  color:var(--text);position:relative;display:inline-block;
+  padding-bottom:4px;
+}
+.contact-email::after{
+  content:'';position:absolute;bottom:0;left:0;width:100%;height:2px;
+  background:var(--amber);transition:transform .3s;transform-origin:left;
+}
+.contact-email:hover{color:var(--amber)}
+.contact-email:hover::after{animation:pulse-line 1s infinite}
+.socials{
+  display:flex;justify-content:center;gap:2.5rem;margin-top:3rem;flex-wrap:wrap;
+}
+.socials a{
+  font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--text-dim);transition:color .3s;
+}
+.socials a:hover{color:var(--amber)}
+
+/* ─── FOOTER ─── */
+footer{
+  padding:3rem;text-align:center;
+  border-top:1px solid rgba(255,255,255,.04);
+}
+footer p{font-family:var(--mono);font-size:.7rem;color:var(--text-dim);letter-spacing:.1em}
+footer span{color:var(--amber)}
+
+/* ─── ANIMATIONS ─── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes pulse-line{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.6)}}
+
+.reveal{opacity:0;transform:translateY(30px);transition:all .7s cubic-bezier(.22,1,.36,1)}
+.reveal.visible{opacity:1;transform:none}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:768px){
+  nav{padding:1rem 1.5rem}
+  .nav-links{
+    position:fixed;top:0;right:-100%;width:70vw;height:100vh;
+    background:var(--bg-elevated);flex-direction:column;
+    padding:5rem 2rem;gap:2rem;
+    transition:right .4s cubic-bezier(.22,1,.36,1);
+    border-left:1px solid rgba(200,146,60,.1);
+  }
+  .nav-links.open{right:0}
+  .mobile-toggle{display:block;z-index:101}
+  section,.hero{padding:5rem 1.5rem}
+  .hero{padding-top:6rem}
+  .hero-line,.hero-scroll{display:none}
+  .timeline{padding-left:2rem}
+  .timeline-item::before{left:-2rem}
+  .expertise-grid,.projects-grid{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+  .hero h1{font-size:2.5rem}
+  .socials{flex-direction:column;align-items:center;gap:1.5rem}
+}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-logo"><span>@</span>othreecodes</div>
+  <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle menu">☰</button>
+  <ul class="nav-links">
+    <li><a href="#about" onclick="this.closest('.nav-links').classList.remove('open')">About</a></li>
+    <li><a href="#experience" onclick="this.closest('.nav-links').classList.remove('open')">Experience</a></li>
+    <li><a href="#expertise" onclick="this.closest('.nav-links').classList.remove('open')">Expertise</a></li>
+    <li><a href="#projects" onclick="this.closest('.nav-links').classList.remove('open')">Projects</a></li>
+    <li><a href="#contact" onclick="this.closest('.nav-links').classList.remove('open')">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <p class="hero-eyebrow">Lagos, Nigeria — @othreecodes</p>
+  <h1>Obi Uchenna<br><em>David</em></h1>
+  <p class="hero-sub">I build things because I can't not build things.</p>
+  <div class="hero-line"></div>
+  <span class="hero-scroll">scroll</span>
+</section>
+
+<section id="about">
+  <div class="about reveal">
+    <div class="section-label">001 — About</div>
+    <h2 class="section-title">The story so far.</h2>
+    <p>My journey started writing my first lines of code at IITA, and it led me through the trenches of Cellcore, Vasiti, Tuteria, and Murcul. Today, I'm the AVP of Engineering at <strong>Cowrywise</strong>, helping build the financial infrastructure for millions.</p>
+    <p>But my work isn't just about servers and code. I've taught Scratch and Python to 8-year-olds as the CTO of knowIT NGO, and organized weekly programming tutorials as President of the Braintemple Association. I speak at places like CX Con and ForLoop because I believe knowledge is meant to be shared. And when the screens turn off, I write poetry.</p>
+    <p>In January 2026, I was promoted alongside ten other incredible leaders at Cowrywise. I saw 11 chairs line up at the front of the room and thought we were about to play dancing chairs. When the announcements started, it didn't feel like "I made it." It felt like responsibility catching up to effort.</p>
+    <div class="about-highlight">
+      "We are Cathedral Builders—people who think in systems, care about continuity, and understand that what they are shaping must outlast them."
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="section-label">002 — Experience</div>
+  <h2 class="section-title">Where I've been.</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-role">AVP of Engineering <span class="timeline-current">Current</span></div>
+      <div class="timeline-company">Cowrywise</div>
+      <p class="timeline-desc">Part of the "Cathedral Builders." Leading engineering strategy, shaping systems that outlast us, and securing the financial future of our users.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-role">Software Engineer</div>
+      <div class="timeline-company">Murcul</div>
+      <p class="timeline-desc">Shipped full-stack features that bridged the gap between complex platforms and user-friendly products.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-role">Software Engineer</div>
+      <div class="timeline-company">Tuteria</div>
+      <p class="timeline-desc">Architected and built the Quiz Microservice from the ground up to handle scalable, isolated assessments.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-role">Developer</div>
+      <div class="timeline-company">Vasiti</div>
+      <p class="timeline-desc">Wrote the core code that powered a competitive e-commerce marketplace for university students.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-role">Developer</div>
+      <div class="timeline-company">Cellcore Nigeria</div>
+      <p class="timeline-desc">Cut my teeth on mobile and enterprise systems, learning how to build software for the real world.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-role">Developer</div>
+      <div class="timeline-company">IITA</div>
+      <p class="timeline-desc">The genesis. Where I first learned how to turn logic into living, breathing applications.</p>
+    </div>
+  </div>
+</section>
+
+<section id="expertise">
+  <div class="section-label">003 — Expertise</div>
+  <h2 class="section-title">What I love doing.</h2>
+  <div class="expertise-grid">
+    <div class="expertise-card reveal">
+      <h3>Building Backends</h3>
+      <div class="expertise-tags">
+        <span>Python</span><span>Django</span><span>Node.js</span><span>NestJS</span><span>Go</span>
+      </div>
+    </div>
+    <div class="expertise-card reveal">
+      <h3>Orchestrating the Cloud</h3>
+      <div class="expertise-tags">
+        <span>AWS</span><span>VPC</span><span>ECS</span><span>Lambda</span><span>Docker</span><span>CloudFront</span><span>Route 53</span>
+      </div>
+    </div>
+    <div class="expertise-card reveal">
+      <h3>Securing the Vault</h3>
+      <div class="expertise-tags">
+        <span>WAF</span><span>SIEM</span><span>OpenSearch</span><span>Neptune</span><span>Incident Response</span><span>Fraud Detection</span>
+      </div>
+    </div>
+    <div class="expertise-card reveal">
+      <h3>Thinking in Systems</h3>
+      <div class="expertise-tags">
+        <span>Microservices</span><span>SNS/SQS</span><span>Event-Driven</span><span>Graph DBs</span><span>Real-time Pipelines</span>
+      </div>
+    </div>
+    <div class="expertise-card reveal">
+      <h3>Shipping Reliably</h3>
+      <div class="expertise-tags">
+        <span>GitHub Actions</span><span>GitLab CI</span><span>Docker</span><span>SES</span><span>CloudFormation</span>
+      </div>
+    </div>
+    <div class="expertise-card reveal">
+      <h3>Exploring the Future</h3>
+      <div class="expertise-tags">
+        <span>LLM Agents</span><span>Embeddings</span><span>RAG Pipelines</span><span>Fraud ML</span><span>Time-Series Models</span>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="section-label">004 — Projects</div>
+  <h2 class="section-title">Things I've brought to life.</h2>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-num">01</div>
+      <h3>The Cowrywise App</h3>
+      <p>A free digital personal finance app that helps people automate their regular savings and investments easily while earning competitive returns.</p>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">02</div>
+      <h3>Cowrywise Roundup</h3>
+      <p>Conceptualized and built our year-end financial summary feature—think Spotify Wrapped, but for your money and savings habits.</p>
+    </div><div class="project-card reveal">
+      <div class="project-num">03</div>
+      <h3>Compare The Markets</h3>
+      <p>A Nigerian platform I built to help everyday people compare the retail prices of market products across different vendors.</p>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">04</div>
+      <h3>PUSH-IT</h3>
+      <p>A robust, cross-platform notification system engineered specifically for mobile devices.</p>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">05</div>
+      <h3>knowIT NGO</h3>
+      <p>Served as CTO and taught Scratch and Python to kids aged 8-13, proving that you're never too young to start building.</p>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">06</div>
+      <h3>NatGrid Monitor</h3>
+      <p>A real-time dashboard tracking Nigeria's national power grid — because understanding your country's infrastructure starts with visibility.</p>
+      <a href="https://github.com/othreecodes/natgrid-monitor" class="project-link" target="_blank" rel="noopener">GitHub →</a>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">07</div>
+      <h3>QuickSend</h3>
+      <p>A desktop app that blasts templated emails with your CV to prospective employers. Built in Java, 28 stars — apparently a lot of people needed this.</p>
+      <a href="https://github.com/othreecodes/Quicksend" class="project-link" target="_blank" rel="noopener">GitHub →</a>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">08</div>
+      <h3>PyCon NG Avatar Generator</h3>
+      <p>Built the branded avatar generator for PyCon Nigeria 2017. Upload a photo, get a conference-branded profile pic. Simple, fun, and used by hundreds of attendees.</p>
+      <a href="https://github.com/othreecodes/pyconngavi" class="project-link" target="_blank" rel="noopener">GitHub →</a>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">09</div>
+      <h3>Interswitch Python SDK</h3>
+      <p>An unofficial Python SDK for Interswitch's payment gateway — because Nigeria's biggest payment processor deserved a proper Python client.</p>
+      <a href="https://github.com/othreecodes/interswitch-python-sdk" class="project-link" target="_blank" rel="noopener">GitHub →</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="section-label">005 — Contact</div>
+  <h2 class="section-title">Say hello.</h2>
+  <p>Whether you want to chat about engineering leadership, systems architecture, or share a good poem, I'm always open to a real conversation.</p>
+  <a href="mailto:contact@davidmadethis.com" class="contact-email">contact@davidmadethis.com</a>
+  <div class="socials">
+    <a href="https://github.com/othreecodes" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/obiuchennadavid/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://twitter.com/othreecodes" target="_blank" rel="noopener">Twitter/X</a>
+    <a href="http://www.theboynamedme.com" target="_blank" rel="noopener">Poetry</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Obi Uchenna David — <span>David made this</span></p>
+</footer>
+
 <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:615911,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script> 
-	  
-	</body>
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }});
+}, { threshold: 0.15 });
+document.querySelectorAll('.reveal, .timeline-item').forEach(el => observer.observe(el));
+
+// Nav hide on scroll down
+let lastY = 0;
+window.addEventListener('scroll', () => {
+  const y = window.scrollY;
+  document.getElementById('nav').classList.toggle('hide', y > lastY && y > 100);
+  lastY = y;
+}, { passive: true });
+</script>
+
+</body>
 </html>
